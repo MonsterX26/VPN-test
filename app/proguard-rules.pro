@@ -1,0 +1,4 @@
+-keep class hev.htproxy.** { *; }
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
